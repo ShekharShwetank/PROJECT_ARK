@@ -1,0 +1,95 @@
+==================================================
+            STORAGE INFORMATION
+==================================================
+
+--- Block Devices (lsblk) ---
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0         7:0    0 318.2M  1 loop /snap/code/195
+loop1         7:1    0  55.5M  1 loop /snap/core18/2887
+loop2         7:2    0     4K  1 loop /snap/bare/5
+loop3         7:3    0 318.2M  1 loop /snap/code/194
+loop4         7:4    0  63.8M  1 loop /snap/core20/2571
+loop5         7:5    0  63.8M  1 loop /snap/core20/2582
+loop6         7:6    0  73.9M  1 loop /snap/core22/1981
+loop7         7:7    0  73.9M  1 loop /snap/core22/1963
+loop8         7:8    0  66.8M  1 loop /snap/core24/988
+loop9         7:9    0 114.1M  1 loop /snap/discord/242
+loop10        7:10   0  66.8M  1 loop /snap/core24/888
+loop11        7:11   0 241.9M  1 loop /snap/firefox/6198
+loop12        7:12   0 245.5M  1 loop /snap/firefox/6316
+loop13        7:13   0  11.1M  1 loop /snap/firmware-updater/167
+loop14        7:14   0   193M  1 loop /snap/gaming-graphics-core22/184
+loop15        7:15   0 164.8M  1 loop /snap/gnome-3-28-1804/198
+loop16        7:16   0 505.1M  1 loop /snap/gnome-42-2204/176
+loop17        7:17   0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop18        7:18   0   516M  1 loop /snap/gnome-42-2204/202
+loop19        7:19   0  10.1M  1 loop /snap/htop/5021
+loop20        7:20   0  10.1M  1 loop /snap/htop/4853
+loop21        7:21   0  12.2M  1 loop /snap/snap-store/1216
+loop22        7:22   0  10.8M  1 loop /snap/snap-store/1270
+loop23        7:23   0  44.4M  1 loop /snap/snapd/23771
+loop24        7:24   0  50.9M  1 loop /snap/snapd/24505
+loop25        7:25   0   500K  1 loop /snap/snapd-desktop-integration/178
+loop26        7:26   0   568K  1 loop /snap/snapd-desktop-integration/253
+loop27        7:27   0 214.9M  1 loop /snap/steam/206
+loop28        7:28   0 210.2M  1 loop /snap/thunderbird/734
+loop29        7:29   0 210.3M  1 loop /snap/thunderbird/735
+loop30        7:30   0  82.1M  1 loop /snap/whatsdesk/28
+loop31        7:31   0     0B  0 loop 
+sda           8:0    0 465.8G  0 disk 
+├─sda1        8:1    0   448M  0 part 
+├─sda2        8:2    0  93.1G  0 part /
+├─sda3        8:3    0  14.9G  0 part [SWAP]
+├─sda4        8:4    0   992M  0 part /boot
+├─sda5        8:5    0  93.1G  0 part /var
+└─sda6        8:6    0 263.2G  0 part /home
+nvme0n1     259:0    0 476.9G  0 disk 
+├─nvme0n1p1 259:1    0   260M  0 part /boot/efi
+├─nvme0n1p2 259:2    0    16M  0 part 
+├─nvme0n1p3 259:3    0 475.9G  0 part 
+└─nvme0n1p4 259:4    0   743M  0 part 
+
+--- Filesystem Disk Space Usage (df -h) ---
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.5G  2.4M  1.5G   1% /run
+/dev/sda2        92G   40G   48G  46% /
+tmpfs           7.5G     0  7.5G   0% /dev/shm
+tmpfs           5.0M   20K  5.0M   1% /run/lock
+efivarfs        256K   84K  168K  34% /sys/firmware/efi/efivars
+tmpfs           7.5G     0  7.5G   0% /run/qemu
+/dev/sda4       958M  188M  705M  22% /boot
+/dev/sda6       258G   69G  177G  29% /home
+/dev/sda5        92G   11G   76G  13% /var
+/dev/nvme0n1p1  256M   93M  164M  37% /boot/efi
+tmpfs           1.5G  152K  1.5G   1% /run/user/1000
+
+--- Partition Information (parted -l) ---
+Model: AMicro AM8180 NVME (scsi)
+Disk /dev/sda: 500GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags: 
+
+Number  Start   End    Size    File system     Name  Flags
+ 1      33.6MB  503MB  470MB   fat32                 boot, esp
+ 2      503MB   100GB  100GB   ext4
+ 3      100GB   116GB  16.0GB  linux-swap(v1)        swap
+ 4      116GB   118GB  1040MB  ext4
+ 5      118GB   218GB  100GB   ext4
+ 6      218GB   500GB  283GB   ext4
+
+
+Model: SAMSUNG MZVL2512HCJQ-00BH1 (nvme)
+Disk /dev/nvme0n1: 512GB
+Sector size (logical/physical): 512B/512B
+Partition Table: gpt
+Disk Flags: 
+
+Number  Start   End    Size    File system  Name                          Flags
+ 1      1049kB  274MB  273MB   fat32        EFI system partition          boot, esp
+ 2      274MB   290MB  16.8MB               Microsoft reserved partition  msftres
+ 3      290MB   511GB  511GB                Basic data partition          msftdata
+ 4      511GB   512GB  779MB   ntfs                                       hidden, diag, no_automount
+
+
+

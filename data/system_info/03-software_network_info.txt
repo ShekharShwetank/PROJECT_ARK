@@ -1,0 +1,375 @@
+==================================================
+        SOFTWARE & NETWORK INFORMATION
+==================================================
+
+--- Kernel and OS Release (uname & os-release) ---
+Linux ank-Victus-by-HP-Gaming-Laptop-15-fb0xxx 6.8.0-60-generic #63-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 19:04:15 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux
+PRETTY_NAME="Ubuntu 24.04.2 LTS"
+NAME="Ubuntu"
+VERSION_ID="24.04"
+VERSION="24.04.2 LTS (Noble Numbat)"
+VERSION_CODENAME=noble
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=noble
+LOGO=ubuntu-logo
+
+--- Installed Packages (dpkg list) ---
+Note: This is a partial list of manually installed packages for brevity.
+2025-06-03 22:47:26 install libpython3.10-minimal:amd64 <none> 3.10.17-1+noble1
+2025-06-03 22:47:26 install python3.10-minimal:amd64 <none> 3.10.17-1+noble1
+2025-06-03 22:47:26 install fonts-mathjax:all <none> 2.7.9+dfsg-1
+2025-06-03 22:47:26 install libpython3.10-stdlib:amd64 <none> 3.10.17-1+noble1
+2025-06-03 22:47:27 install python3.10:amd64 <none> 3.10.17-1+noble1
+2025-06-03 22:47:27 install python3.10-tk:amd64 <none> 3.10.17-1+noble1
+2025-06-03 22:47:27 install libjs-mathjax:all <none> 2.7.9+dfsg-1
+2025-06-03 22:47:29 install idle-python3.10:all <none> 3.10.17-1+noble1
+2025-06-03 22:47:29 install net-tools:amd64 <none> 2.10-0.1ubuntu4.4
+2025-06-03 22:47:29 install libpython3.10-testsuite:all <none> 3.10.17-1+noble1
+2025-06-03 22:47:30 install python3.10-lib2to3:all <none> 3.10.17-1+noble1
+2025-06-03 22:47:30 install python3.10-distutils:all <none> 3.10.17-1+noble1
+2025-06-03 22:47:30 install python3.10-examples:all <none> 3.10.17-1+noble1
+2025-06-03 22:47:31 install python3.10-venv:amd64 3.10.12-1~22.04.9 3.10.17-1+noble1
+2025-06-03 22:47:31 install python3.10-gdbm:amd64 <none> 3.10.17-1+noble1
+2025-06-03 22:47:31 install python3.10-full:amd64 <none> 3.10.17-1+noble1
+2025-06-03 23:00:52 install libpython3.10:amd64 <none> 3.10.17-1+noble1
+2025-06-03 23:00:52 install libpython3.10-dev:amd64 <none> 3.10.17-1+noble1
+2025-06-04 14:36:15 install ipxe-qemu:all <none> 1.21.1+git-20220113.fbbdc3926-0ubuntu2
+2025-06-04 14:36:15 install libaio1t64:amd64 <none> 0.3.113-6build1.1
+2025-06-04 14:36:15 install libcacard0:amd64 <none> 1:2.8.0-3build4
+2025-06-04 14:36:15 install libdaxctl1:amd64 <none> 77-2ubuntu2
+2025-06-04 14:36:15 install librdmacm1t64:amd64 <none> 50.0-2build2
+2025-06-04 14:36:15 install libiscsi7:amd64 <none> 1.19.0-3build4
+2025-06-04 14:36:16 install libjack-jackd2-0:amd64 <none> 1.9.21~dfsg-3ubuntu3
+2025-06-04 14:36:16 install libndctl6:amd64 <none> 77-2ubuntu2
+2025-06-04 14:36:16 install libpmem1:amd64 <none> 1.13.1-1.1ubuntu2
+2025-06-04 14:36:16 install libpmemobj1:amd64 <none> 1.13.1-1.1ubuntu2
+2025-06-04 14:36:16 install librados2:amd64 <none> 19.2.0-0ubuntu0.24.04.2
+2025-06-04 14:36:16 install librbd1:amd64 <none> 19.2.0-0ubuntu0.24.04.2
+2025-06-04 14:36:17 install libsdl2-2.0-0:amd64 <none> 2.30.0+dfsg-1ubuntu3.1
+2025-06-04 14:36:17 install libslirp0:amd64 <none> 4.7.0-1ubuntu3
+2025-06-04 14:36:17 install libspice-server1:amd64 <none> 0.15.1-1build2
+2025-06-04 14:36:17 install liburing2:amd64 <none> 2.5-1build1
+2025-06-04 14:36:17 install libusbredirparser1t64:amd64 <none> 0.13.0-2.1build1
+2025-06-04 14:36:17 install libvirglrenderer1:amd64 <none> 1.0.0-1ubuntu2
+2025-06-04 14:36:17 install libfdt1:amd64 <none> 1.7.0-2build1
+2025-06-04 14:36:17 install qemu-system-common:amd64 <none> 1:8.2.2+ds-0ubuntu1.7
+2025-06-04 14:36:18 install qemu-system-data:all <none> 1:8.2.2+ds-0ubuntu1.7
+2025-06-04 14:36:18 install qemu-system-misc:amd64 <none> 1:8.2.2+ds-0ubuntu1.7
+2025-06-04 14:36:24 install qemu-utils:amd64 <none> 1:8.2.2+ds-0ubuntu1.7
+2025-06-04 14:36:24 install qemu-block-extra:amd64 <none> 1:8.2.2+ds-0ubuntu1.7
+2025-06-04 14:36:24 install qemu-system-modules-opengl:amd64 <none> 1:8.2.2+ds-0ubuntu1.7
+2025-06-04 14:36:25 install qemu-system-gui:amd64 <none> 1:8.2.2+ds-0ubuntu1.7
+2025-06-04 14:36:25 install qemu-system-modules-spice:amd64 <none> 1:8.2.2+ds-0ubuntu1.7
+2025-06-04 14:36:25 install seabios:all <none> 1.16.3-2
+2025-06-04 14:48:44 install opensbi:all <none> 1.4-1
+2025-06-04 15:45:44 install device-tree-compiler:amd64 <none> 1.7.0-2build1
+2025-06-05 10:18:08 install testdisk:amd64 <none> 7.1-5+nmu1build2
+2025-06-05 10:18:12 install extundelete:amd64 <none> 0.2.4-3build2
+2025-06-05 10:18:12 install foremost:amd64 <none> 1.5.7-11
+2025-06-05 10:18:12 install scalpel:amd64 <none> 1.60+git20240110.6960eb2-1build1
+2025-06-09 14:16:13 install python3-lib2to3:all <none> 3.12.3-0ubuntu1
+2025-06-09 14:16:14 install 2to3:all <none> 3.12.3-0ubuntu2
+2025-06-09 14:16:14 install idle-python3.12:all <none> 3.12.3-1ubuntu0.5
+2025-06-09 14:16:14 install idle:all <none> 3.12.3-0ubuntu2
+2025-06-09 14:16:14 install libpython3.12-testsuite:all <none> 3.12.3-1ubuntu0.5
+2025-06-09 14:16:15 install python3.12-doc:all <none> 3.12.3-1ubuntu0.5
+2025-06-09 14:16:17 install python3-doc:all <none> 3.12.3-0ubuntu2
+2025-06-09 14:16:17 install python3.12-examples:all <none> 3.12.3-1ubuntu0.5
+2025-06-09 14:16:17 install python3-examples:all <none> 3.12.3-0ubuntu2
+2025-06-09 14:16:17 install python3.12-full:amd64 <none> 3.12.3-1ubuntu0.5
+2025-06-09 14:16:17 install python3-full:amd64 <none> 3.12.3-0ubuntu2
+2025-06-09 14:22:08 install python3-platformdirs:all <none> 4.2.0-1
+2025-06-09 14:22:08 install python3-traitlets:all <none> 5.5.0-2
+2025-06-09 14:22:08 install python3-jupyter-core:all <none> 5.3.2-1ubuntu1
+2025-06-09 14:22:08 install jupyter-core:all <none> 5.3.2-1ubuntu1
+2025-06-10 08:13:56 install libva2:amd64 <none> 2.20.0-2build1
+2025-06-10 08:13:56 install libigdgmm12:amd64 <none> 22.3.17+ds1-1
+2025-06-10 08:13:56 install intel-media-va-driver:amd64 <none> 24.1.0+dfsg1-1
+2025-06-10 08:13:56 install liba52-0.7.4:amd64 <none> 0.7.4-20build1
+2025-06-10 08:13:56 install libaacs0:amd64 <none> 0.11.1-2build1
+2025-06-10 08:13:56 install libaribb24-0t64:amd64 <none> 1.0.3-2.1build2
+2025-06-10 08:13:56 install libunibreak5:amd64 <none> 5.1-2build1
+2025-06-10 08:13:57 install libass9:amd64 <none> 1:0.17.1-2build1
+2025-06-10 08:13:57 install libva-drm2:amd64 <none> 2.20.0-2build1
+2025-06-10 08:13:57 install libva-x11-2:amd64 <none> 2.20.0-2build1
+2025-06-10 08:13:57 install libvdpau1:amd64 <none> 1.5-2build1
+2025-06-10 08:13:57 install libvpl2:amd64 <none> 2023.3.0-1build1
+2025-06-10 08:13:57 install ocl-icd-libopencl1:amd64 <none> 2.3.2-1build1
+2025-06-10 08:13:57 install libavutil58:amd64 <none> 7:6.1.1-3ubuntu5
+2025-06-10 08:13:57 install libcodec2-1.2:amd64 <none> 1.2.0-2build1
+2025-06-10 08:13:58 install libdav1d7:amd64 <none> 1.4.1-1build1
+2025-06-10 08:13:58 install libgsm1:amd64 <none> 1.0.22-1build1
+2025-06-10 08:13:58 install libhwy1t64:amd64 <none> 1.0.7-8.1build1
+2025-06-10 08:13:58 install libjxl0.7:amd64 <none> 0.7.0-10.2ubuntu6
+2025-06-10 08:13:59 install librav1e0:amd64 <none> 0.7.1-2
+2025-06-10 08:13:59 install libshine3:amd64 <none> 3.1.1-2build1
+2025-06-10 08:13:59 install libsvtav1enc1d1:amd64 <none> 1.7.0+dfsg-2build1
+2025-06-10 08:13:59 install libsoxr0:amd64 <none> 0.1.3-4build3
+2025-06-10 08:13:59 install libswresample4:amd64 <none> 7:6.1.1-3ubuntu5
+2025-06-10 08:13:59 install libx264-164:amd64 <none> 2:0.164.3108+git31e19f9-1
+2025-06-10 08:13:59 install libx265-199:amd64 <none> 3.5-2build1
+2025-06-10 08:14:00 install libxvidcore4:amd64 <none> 2:1.3.7-1build1
+2025-06-10 08:14:00 install libzvbi-common:all <none> 0.2.42-2
+2025-06-10 08:14:00 install libzvbi0t64:amd64 <none> 0.2.42-2
+2025-06-10 08:14:00 install libavcodec60:amd64 <none> 7:6.1.1-3ubuntu5
+2025-06-10 08:14:00 install libudfread0:amd64 <none> 1.1.2-1build1
+2025-06-10 08:14:00 install libbluray2:amd64 <none> 1:1.3.4-1build1
+2025-06-10 08:14:01 install libchromaprint1:amd64 <none> 1.5.1-5
+2025-06-10 08:14:01 install libgme0:amd64 <none> 0.6.3-7build1
+2025-06-10 08:14:01 install libopenmpt0t64:amd64 <none> 0.7.3-1.1build3
+2025-06-10 08:14:01 install librabbitmq4:amd64 <none> 0.11.0-1build2
+2025-06-10 08:14:01 install libcjson1:amd64 <none> 1.7.17-1
+2025-06-10 08:14:01 install libmbedcrypto7t64:amd64 <none> 2.28.8-1
+2025-06-10 08:14:01 install librist4:amd64 <none> 0.2.10+dfsg-2
+2025-06-10 08:14:01 install libsrt1.5-gnutls:amd64 <none> 1.5.3-1build2
+2025-06-10 08:14:01 install libssh-gcrypt-4:amd64 <none> 0.10.6-2build2
+2025-06-10 08:14:01 install libnorm1t64:amd64 <none> 1.5.9+dfsg-3.1build1
+2025-06-10 08:14:01 install libpgm-5.3-0t64:amd64 <none> 5.3.128~dfsg-2.1build1
+2025-06-10 08:14:01 install libzmq5:amd64 <none> 4.3.5-1build2
+2025-06-10 08:14:01 install libavformat60:amd64 <none> 7:6.1.1-3ubuntu5
+2025-06-10 08:14:02 install libbdplus0:amd64 <none> 0.2.0-3build1
+2025-06-10 08:14:02 install libcddb2:amd64 <none> 1.3.2-7fakesync1build1
+2025-06-10 08:14:02 install libdc1394-25:amd64 <none> 2.2.6-4build1
+2025-06-10 08:14:02 install libdvbpsi10:amd64 <none> 1.3.3-1build1
+2025-06-10 08:14:02 install libdvdread8t64:amd64 <none> 6.1.3-1.1build1
+2025-06-10 08:14:02 install libdvdnav4:amd64 <none> 6.1.1-3build1
+2025-06-10 08:14:02 install libebml5:amd64 <none> 1.4.5-1
+2025-06-10 08:14:02 install libfaad2:amd64 <none> 2.11.1-1build1
+2025-06-10 08:14:02 install libixml11t64:amd64 <none> 1:1.14.18-1.1ubuntu2
+2025-06-10 08:14:02 install libkate1:amd64 <none> 0.4.1-11build2
+2025-06-10 08:14:02 install liblua5.2-0:amd64 <none> 5.2.4-3build2
+2025-06-10 08:14:02 install libmad0:amd64 <none> 0.15.1b-10.2ubuntu1
+2025-06-10 08:14:02 install libmatroska7:amd64 <none> 1.7.1-1build1
+2025-06-10 08:14:02 install libmpcdec6:amd64 <none> 2:0.1~r495-2build1
+2025-06-10 08:14:02 install libmpeg2-4:amd64 <none> 0.5.1-9build1
+2025-06-10 08:14:02 install libmysofa1:amd64 <none> 1.3.2+dfsg-2ubuntu2
+2025-06-10 08:14:03 install libopenmpt-modplug1:amd64 <none> 0.8.9.0-openmpt1-2build2
+2025-06-10 08:14:03 install libpostproc57:amd64 <none> 7:6.1.1-3ubuntu5
+2025-06-10 08:14:03 install libprotobuf-lite32t64:amd64 <none> 3.21.12-8.2ubuntu0.1
+2025-06-10 08:14:03 install libproxy-tools:amd64 <none> 0.5.4-4build1
+2025-06-10 08:14:03 install libqt5x11extras5:amd64 <none> 5.15.13-1
+2025-06-10 08:14:03 install libresid-builder0c2a:amd64 <none> 2.1.1-15ubuntu3
+2025-06-10 08:14:03 install libsidplay2:amd64 <none> 2.1.1-15ubuntu3
+2025-06-10 08:14:03 install libspatialaudio0t64:amd64 <none> 0.3.0+git20180730+dfsg1-2.1build1
+2025-06-10 08:14:03 install libssh2-1t64:amd64 <none> 1.11.0-4.1build2
+2025-06-10 08:14:03 install libswscale7:amd64 <none> 7:6.1.1-3ubuntu5
+2025-06-10 08:14:03 install libupnp17t64:amd64 <none> 1:1.14.18-1.1ubuntu2
+2025-06-10 08:14:03 install libva-wayland2:amd64 <none> 2.20.0-2build1
+2025-06-10 08:14:03 install libvlccore9:amd64 <none> 3.0.20-3build6
+2025-06-10 08:14:03 install libvlc5:amd64 <none> 3.0.20-3build6
+2025-06-10 08:14:03 install libvlc-bin:amd64 <none> 3.0.20-3build6
+2025-06-10 08:14:04 install libxcb-composite0:amd64 <none> 1.15-1ubuntu2
+2025-06-10 08:14:04 install mesa-va-drivers:amd64 <none> 24.2.8-1ubuntu1~24.04.1
+2025-06-10 08:14:04 install mesa-vdpau-drivers:amd64 <none> 24.2.8-1ubuntu1~24.04.1
+2025-06-10 08:14:04 install i965-va-driver:amd64 <none> 2.4.1+dfsg1-1build2
+2025-06-10 08:14:04 install va-driver-all:amd64 <none> 2.20.0-2build1
+2025-06-10 08:14:04 install vdpau-driver-all:amd64 <none> 1.5-2build1
+2025-06-10 08:14:04 install vlc-bin:amd64 <none> 3.0.20-3build6
+2025-06-10 08:14:04 install vlc-data:all <none> 3.0.20-3build6
+2025-06-10 08:14:04 install libdca0:amd64 <none> 0.0.7-2build1
+2025-06-10 08:14:04 install vlc-plugin-base:amd64 <none> 3.0.20-3build6
+2025-06-10 08:14:05 install vlc-plugin-qt:amd64 <none> 3.0.20-3build6
+2025-06-10 08:14:05 install vlc-plugin-video-output:amd64 <none> 3.0.20-3build6
+2025-06-10 08:14:05 install vlc:amd64 <none> 3.0.20-3build6
+2025-06-10 08:14:05 install vlc-l10n:all <none> 3.0.20-3build6
+2025-06-10 08:14:07 install vlc-plugin-access-extra:amd64 <none> 3.0.20-3build6
+2025-06-10 08:14:07 install vlc-plugin-notify:amd64 <none> 3.0.20-3build6
+2025-06-10 08:14:07 install vlc-plugin-samba:amd64 <none> 3.0.20-3build6
+2025-06-10 08:14:07 install vlc-plugin-skins2:amd64 <none> 3.0.20-3build6
+2025-06-10 08:14:07 install vlc-plugin-video-splitter:amd64 <none> 3.0.20-3build6
+2025-06-10 08:14:07 install vlc-plugin-visualization:amd64 <none> 3.0.20-3build6
+2025-06-13 22:13:24 install gcc-14-base:i386 <none> 14.2.0-4ubuntu2~24.04
+2025-06-13 22:13:24 install libgcc-s1:i386 <none> 14.2.0-4ubuntu2~24.04
+2025-06-13 22:13:24 install libc6:i386 <none> 2.39-0ubuntu8.4
+2025-06-13 22:13:24 install liblzma5:i386 <none> 5.6.1+really5.4.5-1ubuntu0.2
+2025-06-13 22:13:24 install libmd0:i386 <none> 1.1.0-2build1.1
+2025-06-13 22:13:24 install libtinfo6:i386 <none> 6.4+20240113-1ubuntu2
+2025-06-13 22:13:25 install libzstd1:i386 <none> 1.5.5+dfsg2-2build1.1
+2025-06-13 22:13:25 install zlib1g:i386 <none> 1:1.3.dfsg-3.1ubuntu2.1
+2025-06-13 22:13:25 install libbsd0:i386 <none> 0.12.1-1build1.1
+2025-06-13 22:13:25 install libelf1t64:i386 <none> 0.190-1.1ubuntu0.1
+2025-06-13 22:13:25 install libexpat1:i386 <none> 2.6.1-2ubuntu0.3
+2025-06-13 22:13:25 install libffi8:i386 <none> 3.4.6-1build1
+2025-06-13 22:13:25 install libstdc++6:i386 <none> 14.2.0-4ubuntu2~24.04
+2025-06-13 22:13:25 install libicu74:i386 <none> 74.2-1ubuntu3.1
+2025-06-13 22:13:26 install libunistring5:i386 <none> 1.1-2build1.1
+2025-06-13 22:13:26 install libidn2-0:i386 <none> 2.3.7-2build1.1
+2025-06-13 22:13:26 install libxml2:i386 <none> 2.9.14+dfsg-1.3ubuntu3.3
+2025-06-13 22:13:26 install libdrm2:i386 <none> 2.4.122-1~ubuntu0.24.04.1
+2025-06-13 22:13:26 install libedit2:i386 <none> 3.1-20230828-1build1
+2025-06-13 22:13:26 install libsensors5:i386 <none> 1:3.6.0-9build1
+2025-06-13 22:13:27 install libxau6:i386 <none> 1:1.0.9-1build6
+2025-06-13 22:13:27 install libxdmcp6:i386 <none> 1:1.1.3-0ubuntu6
+2025-06-13 22:13:27 install libxcb1:i386 <none> 1.15-1ubuntu2
+2025-06-13 22:13:27 install libx11-6:i386 <none> 2:1.8.7-1build1
+2025-06-13 22:13:27 install libxext6:i386 <none> 2:1.3.4-1build2
+2025-06-13 22:13:27 install libatomic1:i386 <none> 14.2.0-4ubuntu2~24.04
+2025-06-13 22:13:27 install libdrm-amdgpu1:i386 <none> 2.4.122-1~ubuntu0.24.04.1
+2025-06-13 22:13:27 install libpciaccess0:i386 <none> 0.17-3build1
+2025-06-13 22:13:27 install libdrm-intel1:i386 <none> 2.4.122-1~ubuntu0.24.04.1
+2025-06-13 22:13:27 install libdrm-radeon1:i386 <none> 2.4.122-1~ubuntu0.24.04.1
+2025-06-13 22:13:27 install libwayland-server0:i386 <none> 1.22.0-2.1build1
+2025-06-13 22:13:27 install libxcb-randr0:i386 <none> 1.15-1ubuntu2
+2025-06-13 22:13:27 install libglapi-mesa:i386 <none> 24.2.8-1ubuntu1~24.04.1
+2025-06-13 22:13:27 install libllvm19:i386 <none> 1:19.1.1-1ubuntu1~24.04.2
+2025-06-13 22:13:31 install libx11-xcb1:i386 <none> 2:1.8.7-1build1
+2025-06-13 22:13:32 install libxcb-dri2-0:i386 <none> 1.15-1ubuntu2
+2025-06-13 22:13:32 install libxcb-dri3-0:i386 <none> 1.15-1ubuntu2
+2025-06-13 22:13:32 install libxcb-present0:i386 <none> 1.15-1ubuntu2
+2025-06-13 22:13:32 install libxcb-sync1:i386 <none> 1.15-1ubuntu2
+2025-06-13 22:13:32 install libxcb-xfixes0:i386 <none> 1.15-1ubuntu2
+2025-06-13 22:13:32 install libxshmfence1:i386 <none> 1.3-1build5
+2025-06-13 22:13:32 install mesa-libgallium:i386 <none> 24.2.8-1ubuntu1~24.04.1
+2025-06-13 22:13:33 install libgbm1:i386 <none> 24.2.8-1ubuntu1~24.04.1
+2025-06-13 22:13:33 install libnvidia-cfg1-570:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:13:33 install libnvidia-common-570:all <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:13:33 install libnvidia-compute-570:i386 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:13:38 install libnvidia-compute-570:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:13:45 install libnvidia-decode-570:i386 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:13:46 install libnvidia-decode-570:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:13:46 install libwayland-client0:i386 <none> 1.22.0-2.1build1
+2025-06-13 22:13:47 install libnvidia-egl-wayland1:i386 <none> 1:1.1.13-1build1
+2025-06-13 22:13:47 install libnvidia-egl-wayland1:amd64 <none> 1:1.1.13-1build1
+2025-06-13 22:13:47 install libnvidia-encode-570:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:13:47 install libnvidia-encode-570:i386 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:13:47 install libnvidia-extra-570:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:13:47 install libnvidia-fbc1-570:i386 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:13:47 install libnvidia-fbc1-570:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:13:47 install libnvidia-gl-570:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:14:00 install libnvidia-gl-570:i386 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:14:05 install libpkgconf3:amd64 <none> 1.8.1-2build1
+2025-06-13 22:14:05 install libxnvctrl0:amd64 <none> 510.47.03-0ubuntu4
+2025-06-13 22:14:05 install nvidia-firmware-570-570.133.07:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:14:08 install nvidia-kernel-common-570:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:14:08 install linux-modules-nvidia-570-open-6.8.0-60-generic:amd64 <none> 6.8.0-60.63+1
+2025-06-13 22:14:09 install linux-modules-nvidia-570-open-generic:amd64 <none> 6.8.0-60.63+1
+2025-06-13 22:14:09 install nvidia-compute-utils-570:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:14:09 install nvidia-kernel-source-570-open:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:14:10 install nvidia-utils-570:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:14:10 install xserver-xorg-video-nvidia-570:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:14:10 install nvidia-driver-570-open:amd64 <none> 570.133.07-0ubuntu0.24.04.1
+2025-06-13 22:14:10 install nvidia-prime:all <none> 0.8.17.2
+2025-06-13 22:14:10 install pkgconf-bin:amd64 <none> 1.8.1-2build1
+2025-06-13 22:14:10 install pkgconf:amd64 <none> 1.8.1-2build1
+2025-06-13 22:14:10 install pkg-config:amd64 <none> 1.8.1-2build1
+2025-06-13 22:14:10 install screen-resolution-extra:all <none> 0.18.3
+2025-06-13 22:14:10 install nvidia-settings:amd64 <none> 510.47.03-0ubuntu4
+2025-06-13 22:31:24 install mesa-utils-bin:amd64 <none> 9.0.0-2
+2025-06-13 22:31:24 install mesa-utils:amd64 <none> 9.0.0-2
+2025-06-13 22:35:20 install cuda-keyring:all <none> 1.1-1
+2025-06-13 22:43:26 install ca-certificates-java:all <none> 20240118
+2025-06-13 22:43:26 install cuda-cccl-12-5:amd64 <none> 12.5.39-1
+2025-06-13 22:43:26 install cuda-cupti-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:29 install cuda-cupti-dev-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:30 install cuda-nvdisasm-12-5:amd64 <none> 12.5.39-1
+2025-06-13 22:43:31 install cuda-cuobjdump-12-5:amd64 <none> 12.5.39-1
+2025-06-13 22:43:31 install cuda-gdb-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:34 install cuda-nvprof-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:35 install cuda-nvtx-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:35 install cuda-sanitizer-12-5:amd64 <none> 12.5.81-1
+2025-06-13 22:43:36 install cuda-command-line-tools-12-5:amd64 <none> 12.5.1-1
+2025-06-13 22:43:36 install cuda-cuxxfilt-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:36 install cuda-toolkit-config-common:all <none> 12.9.79-1
+2025-06-13 22:43:36 install cuda-toolkit-12-config-common:all <none> 12.9.79-1
+2025-06-13 22:43:36 install cuda-toolkit-12-5-config-common:all <none> 12.5.82-1
+2025-06-13 22:43:36 install cuda-cudart-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:36 install cuda-driver-dev-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:37 install cuda-cudart-dev-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:37 install cuda-nvvm-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:39 install cuda-crt-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:39 install cuda-nvcc-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:43 install cuda-nvprune-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:43 install cuda-compiler-12-5:amd64 <none> 12.5.1-1
+2025-06-13 22:43:43 install cuda-documentation-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:44 install cuda-nvrtc-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:43:46 install cuda-opencl-12-5:amd64 <none> 12.5.39-1
+2025-06-13 22:43:46 install libcublas-12-5:amd64 <none> 12.5.3.2-1
+2025-06-13 22:44:01 install libcufft-12-5:amd64 <none> 11.2.3.61-1
+2025-06-13 22:44:09 install libcufile-12-5:amd64 <none> 1.10.1.7-1
+2025-06-13 22:44:09 install libcurand-12-5:amd64 <none> 10.3.6.82-1
+2025-06-13 22:44:12 install libcusolver-12-5:amd64 <none> 11.6.3.83-1
+2025-06-13 22:44:18 install libcusparse-12-5:amd64 <none> 12.5.1.3-1
+2025-06-13 22:44:27 install libnpp-12-5:amd64 <none> 12.3.0.159-1
+2025-06-13 22:44:33 install libnvjitlink-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:44:35 install libnvfatbin-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:44:35 install libnvjpeg-12-5:amd64 <none> 12.3.2.81-1
+2025-06-13 22:44:36 install cuda-libraries-12-5:amd64 <none> 12.5.1-1
+2025-06-13 22:44:36 install cuda-profiler-api-12-5:amd64 <none> 12.5.39-1
+2025-06-13 22:44:36 install cuda-nvrtc-dev-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:44:38 install cuda-opencl-dev-12-5:amd64 <none> 12.5.39-1
+2025-06-13 22:44:39 install libcublas-dev-12-5:amd64 <none> 12.5.3.2-1
+2025-06-13 22:45:03 install libcufft-dev-12-5:amd64 <none> 11.2.3.61-1
+2025-06-13 22:45:20 install libcufile-dev-12-5:amd64 <none> 1.10.1.7-1
+2025-06-13 22:45:21 install libcurand-dev-12-5:amd64 <none> 10.3.6.82-1
+2025-06-13 22:45:24 install libcusolver-dev-12-5:amd64 <none> 11.6.3.83-1
+2025-06-13 22:45:29 install libcusparse-dev-12-5:amd64 <none> 12.5.1.3-1
+2025-06-13 22:45:38 install libnpp-dev-12-5:amd64 <none> 12.3.0.159-1
+2025-06-13 22:45:45 install libnvjitlink-dev-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:45:47 install libnvfatbin-dev-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:45:47 install libnvjpeg-dev-12-5:amd64 <none> 12.3.2.81-1
+2025-06-13 22:45:48 install cuda-libraries-dev-12-5:amd64 <none> 12.5.1-1
+2025-06-13 22:45:48 install java-common:all <none> 0.75+exp1
+2025-06-13 22:45:48 install openjdk-21-jre-headless:amd64 <none> 21.0.7+6~us1-0ubuntu1~24.04
+2025-06-13 22:45:54 install default-jre-headless:amd64 <none> 2:1.21-75+exp1
+2025-06-13 22:45:54 install openjdk-21-jre:amd64 <none> 21.0.7+6~us1-0ubuntu1~24.04
+2025-06-13 22:45:54 install default-jre:amd64 <none> 2:1.21-75+exp1
+2025-06-13 22:45:54 install cuda-nsight-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:45:57 install nsight-compute-2024.2.1:amd64 <none> 2024.2.1.2-1
+2025-06-13 22:46:30 install cuda-nsight-compute-12-5:amd64 <none> 12.5.1-1
+2025-06-13 22:46:30 install libxcb-cursor0:amd64 <none> 0.1.4-1build1
+2025-06-13 22:46:30 install nsight-systems-2024.2.3:amd64 <none> 2024.2.3.38-242334140272v0
+2025-06-13 22:46:58 install cuda-nsight-systems-12-5:amd64 <none> 12.5.1-1
+2025-06-13 22:46:58 install cuda-nvml-dev-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:46:58 install cuda-nvvp-12-5:amd64 <none> 12.5.82-1
+2025-06-13 22:47:02 install cuda-visual-tools-12-5:amd64 <none> 12.5.1-1
+2025-06-13 22:47:02 install gds-tools-12-5:amd64 <none> 1.10.1.7-1
+2025-06-13 22:47:05 install cuda-tools-12-5:amd64 <none> 12.5.1-1
+2025-06-13 22:47:05 install cuda-toolkit-12-5:amd64 <none> 12.5.1-1
+2025-06-13 22:47:05 install fonts-dejavu-extra:all <none> 2.37-8
+2025-06-13 22:47:05 install libatk-wrapper-java:all <none> 0.40.0-3build2
+2025-06-13 22:47:05 install libatk-wrapper-java-jni:amd64 <none> 0.40.0-3build2
+
+For a full list, you could run 'dpkg -l', but it is very long.
+
+--- Network Interfaces (ip a) ---
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: eno1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN group default qlen 1000
+    link/ether bc:0f:f3:8e:0b:4e brd ff:ff:ff:ff:ff:ff
+    altname enp2s0
+3: wlo1: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 50:5a:65:7e:16:17 brd ff:ff:ff:ff:ff:ff
+    altname wlp3s0
+    inet 192.168.0.105/24 brd 192.168.0.255 scope global dynamic noprefixroute wlo1
+       valid_lft 6400sec preferred_lft 6400sec
+    inet6 fe80::a95f:1d0a:39d1:5c82/64 scope link noprefixroute 
+       valid_lft forever preferred_lft forever
+
+--- Current Network Connections (ss -tuln) ---
+Netid State  Recv-Q Send-Q Local Address:Port  Peer Address:PortProcess
+udp   UNCONN 0      0         127.0.0.54:53         0.0.0.0:*          
+udp   UNCONN 0      0      127.0.0.53%lo:53         0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:42325      0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:50590      0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:34364      0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:51954      0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:52298      0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:53098      0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:5353       0.0.0.0:*          
+udp   UNCONN 0      0            0.0.0.0:38623      0.0.0.0:*          
+udp   UNCONN 0      0               [::]:5353          [::]:*          
+udp   UNCONN 0      0               [::]:55502         [::]:*          
+tcp   LISTEN 0      4096   127.0.0.53%lo:53         0.0.0.0:*          
+tcp   LISTEN 0      4096       127.0.0.1:631        0.0.0.0:*          
+tcp   LISTEN 0      4096      127.0.0.54:53         0.0.0.0:*          
+tcp   LISTEN 0      4096           [::1]:631           [::]:*          
+

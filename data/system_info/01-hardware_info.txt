@@ -1,0 +1,186 @@
+==================================================
+            HARDWARE INFORMATION
+==================================================
+
+--- CPU Information (lscpu) ---
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        48 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               16
+On-line CPU(s) list:                  0-15
+Vendor ID:                            AuthenticAMD
+Model name:                           AMD Ryzen 7 5800H with Radeon Graphics
+CPU family:                           25
+Model:                                80
+Thread(s) per core:                   2
+Core(s) per socket:                   8
+Socket(s):                            1
+Stepping:                             0
+CPU(s) scaling MHz:                   40%
+CPU max MHz:                          4463.0000
+CPU min MHz:                          400.0000
+BogoMIPS:                             6387.27
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local user_shstk clzero irperf xsaveerptr rdpru wbnoinvd cppc arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm debug_swap
+Virtualization:                       AMD-V
+L1d cache:                            256 KiB (8 instances)
+L1i cache:                            256 KiB (8 instances)
+L2 cache:                             4 MiB (8 instances)
+L3 cache:                             16 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-15
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Not affected
+Vulnerability Reg file data sampling: Not affected
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Mitigation; Safe RET
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+
+--- Memory Information (free -h) ---
+               total        used        free      shared  buff/cache   available
+Mem:            14Gi       5.7Gi       1.1Gi       119Mi       8.7Gi       9.3Gi
+Swap:           14Gi       268Ki        14Gi
+
+--- Detailed Hardware List (lshw -short) ---
+H/W path                    Device          Class          Description
+======================================================================
+                                            system         Victus by HP Gaming Laptop 15-fb0xxx (6F9U1PA#ACJ)
+/0                                          bus            8A3D
+/0/0                                        memory         64KiB BIOS
+/0/e                                        memory         16GiB System Memory
+/0/e/0                                      memory         8GiB SODIMM DDR4 Synchronous Unbuffered (Unregistered) 3200 MHz (0.3 ns)
+/0/e/1                                      memory         8GiB SODIMM DDR4 Synchronous Unbuffered (Unregistered) 3200 MHz (0.3 ns)
+/0/10                                       memory         512KiB L1 cache
+/0/11                                       memory         4MiB L2 cache
+/0/12                                       memory         16MiB L3 cache
+/0/13                                       processor      AMD Ryzen 7 5800H with Radeon Graphics
+/0/100                                      bridge         Renoir/Cezanne Root Complex
+/0/100/0.2                                  generic        Renoir/Cezanne IOMMU
+/0/100/1.1                                  bridge         Renoir PCIe GPP Bridge
+/0/100/1.1/0                /dev/fb0        display        GA107M [GeForce RTX 3050 Mobile]
+/0/100/1.1/0.1              card0           multimedia     NVIDIA Corporation
+/0/100/1.1/0.1/0            input14         input          HDA NVidia HDMI/DP,pcm=3
+/0/100/1.1/0.1/1            input15         input          HDA NVidia HDMI/DP,pcm=7
+/0/100/1.1/0.1/2            input16         input          HDA NVidia HDMI/DP,pcm=8
+/0/100/1.1/0.1/3            input17         input          HDA NVidia HDMI/DP,pcm=9
+/0/100/1.2                                  bridge         Renoir/Cezanne PCIe GPP Bridge
+/0/100/1.2/0                eno1            network        RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller
+/0/100/2.1                                  bridge         Renoir/Cezanne PCIe GPP Bridge
+/0/100/2.1/0                wlo1            network        MT7921 802.11ax PCI Express Wireless Network Adapter
+/0/100/2.2                                  bridge         Renoir/Cezanne PCIe GPP Bridge
+/0/100/2.2/0                mmc0            bus            Realtek Semiconductor Co., Ltd.
+/0/100/2.4                                  bridge         Renoir/Cezanne PCIe GPP Bridge
+/0/100/2.4/0                /dev/nvme0      storage        SAMSUNG MZVL2512HCJQ-00BH1
+/0/100/2.4/0/0              hwmon3          disk           NVMe disk
+/0/100/2.4/0/2              /dev/ng0n1      disk           NVMe disk
+/0/100/2.4/0/1              /dev/nvme0n1    disk           512GB NVMe disk
+/0/100/2.4/0/1/1            /dev/nvme0n1p1  volume         259MiB Windows FAT volume
+/0/100/2.4/0/1/2            /dev/nvme0n1p2  volume         15MiB reserved partition
+/0/100/2.4/0/1/3            /dev/nvme0n1p3  volume         15EiB Windows FAT volume
+/0/100/2.4/0/1/4            /dev/nvme0n1p4  volume         742MiB Windows NTFS volume
+/0/100/8.1                                  bridge         Renoir Internal PCIe GPP Bridge to Bus
+/0/100/8.1/0                /dev/fb0        display        Cezanne [Radeon Vega Series / Radeon Vega Mobile Series]
+/0/100/8.1/0.1              card1           multimedia     Renoir Radeon High Definition Audio Controller
+/0/100/8.1/0.1/0            input13         input          HD-Audio Generic HDMI/DP,pcm=3
+/0/100/8.1/0.2                              generic        Family 17h (Models 10h-1fh) Platform Security Processor
+/0/100/8.1/0.3                              bus            Renoir/Cezanne USB 3.1
+/0/100/8.1/0.3/0            usb1            bus            xHCI Host Controller
+/0/100/8.1/0.3/0/3                          multimedia     HP Wide Vision HD Camera
+/0/100/8.1/0.3/0/4                          communication  Wireless_Device
+/0/100/8.1/0.3/1            usb2            bus            xHCI Host Controller
+/0/100/8.1/0.4                              bus            Renoir/Cezanne USB 3.1
+/0/100/8.1/0.4/0            usb3            bus            xHCI Host Controller
+/0/100/8.1/0.4/0/1          scsi0           storage        AM8180
+/0/100/8.1/0.4/0/1/0.0.0    /dev/sda        disk           500GB AM8180 NVME
+/0/100/8.1/0.4/0/1/0.0.0/1  /dev/sda1       volume         447MiB Windows FAT volume
+/0/100/8.1/0.4/0/1/0.0.0/2  /dev/sda2       volume         93GiB EXT4 volume
+/0/100/8.1/0.4/0/1/0.0.0/3  /dev/sda3       volume         14GiB Linux swap volume
+/0/100/8.1/0.4/0/1/0.0.0/4  /dev/sda4       volume         991MiB EXT4 volume
+/0/100/8.1/0.4/0/1/0.0.0/5  /dev/sda5       volume         93GiB EXT4 volume
+/0/100/8.1/0.4/0/1/0.0.0/6  /dev/sda6       volume         263GiB EXT4 volume
+/0/100/8.1/0.4/1            usb4            bus            xHCI Host Controller
+/0/100/8.1/0.5              card3           multimedia     ACP/ACP3X/ACP6x Audio Coprocessor
+/0/100/8.1/0.6              card2           multimedia     Family 17h/19h HD Audio Controller
+/0/100/8.1/0.6/0            input18         input          HD-Audio Generic Mic
+/0/100/8.1/0.6/1            input19         input          HD-Audio Generic Headphone
+/0/100/14                                   bus            FCH SMBus Controller
+/0/100/14.3                                 bridge         FCH LPC Bridge
+/0/100/14.3/0                               system         PnP device PNP0c01
+/0/100/14.3/1                               system         PnP device PNP0b00
+/0/100/14.3/2                               generic        PnP device HPQ8001
+/0/100/14.3/3                               system         PnP device PNP0c02
+/0/101                                      bridge         Renoir PCIe Dummy Host Bridge
+/0/102                                      bridge         Renoir PCIe Dummy Host Bridge
+/0/103                                      bridge         Renoir PCIe Dummy Host Bridge
+/0/104                                      bridge         Cezanne Data Fabric; Function 0
+/0/105                                      bridge         Cezanne Data Fabric; Function 1
+/0/106                                      bridge         Cezanne Data Fabric; Function 2
+/0/107                                      bridge         Cezanne Data Fabric; Function 3
+/0/108                                      bridge         Cezanne Data Fabric; Function 4
+/0/109                                      bridge         Cezanne Data Fabric; Function 5
+/0/10a                                      bridge         Cezanne Data Fabric; Function 6
+/0/10b                                      bridge         Cezanne Data Fabric; Function 7
+/1                                          power          WK04070XL
+/2                          input0          input          Power Button
+/3                          input1          input          Lid Switch
+/4                          input10         input          ELAN0787:00 04F3:321A Touchpad
+/5                          input11         input          Wireless hotkeys
+/6                          input12         input          HP WMI hotkeys
+/7                          input2          input          AT Translated Set 2 keyboard
+/8                          input3          input          Video Bus
+/9                          input4          input          Video Bus
+/a                          input8          input          ELAN0787:00 04F3:321A Mouse
+
+--- PCI Devices (lspci) ---
+00:00.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne Root Complex
+00:00.2 IOMMU: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne IOMMU
+00:01.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir PCIe Dummy Host Bridge
+00:01.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Renoir PCIe GPP Bridge
+00:01.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge
+00:02.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir PCIe Dummy Host Bridge
+00:02.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge
+00:02.2 PCI bridge: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge
+00:02.4 PCI bridge: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne PCIe GPP Bridge
+00:08.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Renoir PCIe Dummy Host Bridge
+00:08.1 PCI bridge: Advanced Micro Devices, Inc. [AMD] Renoir Internal PCIe GPP Bridge to Bus
+00:14.0 SMBus: Advanced Micro Devices, Inc. [AMD] FCH SMBus Controller (rev 51)
+00:14.3 ISA bridge: Advanced Micro Devices, Inc. [AMD] FCH LPC Bridge (rev 51)
+00:18.0 Host bridge: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 0
+00:18.1 Host bridge: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 1
+00:18.2 Host bridge: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 2
+00:18.3 Host bridge: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 3
+00:18.4 Host bridge: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 4
+00:18.5 Host bridge: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 5
+00:18.6 Host bridge: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 6
+00:18.7 Host bridge: Advanced Micro Devices, Inc. [AMD] Cezanne Data Fabric; Function 7
+01:00.0 VGA compatible controller: NVIDIA Corporation GA107M [GeForce RTX 3050 Mobile] (rev a1)
+01:00.1 Audio device: NVIDIA Corporation Device 2291 (rev a1)
+02:00.0 Ethernet controller: Realtek Semiconductor Co., Ltd. RTL8111/8168/8211/8411 PCI Express Gigabit Ethernet Controller (rev 16)
+03:00.0 Network controller: MEDIATEK Corp. MT7921 802.11ax PCI Express Wireless Network Adapter
+04:00.0 Unassigned class [ff00]: Realtek Semiconductor Co., Ltd. Device 5228 (rev 01)
+05:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller PM9A1/PM9A3/980PRO
+06:00.0 VGA compatible controller: Advanced Micro Devices, Inc. [AMD/ATI] Cezanne [Radeon Vega Series / Radeon Vega Mobile Series] (rev c5)
+06:00.1 Audio device: Advanced Micro Devices, Inc. [AMD/ATI] Renoir Radeon High Definition Audio Controller
+06:00.2 Encryption controller: Advanced Micro Devices, Inc. [AMD] Family 17h (Models 10h-1fh) Platform Security Processor
+06:00.3 USB controller: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne USB 3.1
+06:00.4 USB controller: Advanced Micro Devices, Inc. [AMD] Renoir/Cezanne USB 3.1
+06:00.5 Multimedia controller: Advanced Micro Devices, Inc. [AMD] ACP/ACP3X/ACP6x Audio Coprocessor (rev 01)
+06:00.6 Audio device: Advanced Micro Devices, Inc. [AMD] Family 17h/19h HD Audio Controller
+
+--- USB Devices (lsusb) ---
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 001 Device 002: ID 30c9:0069 Luxvisions Innotech Limited HP Wide Vision HD Camera
+Bus 001 Device 003: ID 13d3:3567 IMC Networks Wireless_Device
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 003 Device 002: ID 1de1:e101 Actions Microelectronics Co. AM8180
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+

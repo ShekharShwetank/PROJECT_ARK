@@ -1,0 +1,15 @@
+# Python virtual environment
+ark_env/
+
+# ChromaDB vector database
+db/
+
+# Log files
+logs/
+
+# Downloaded sentence-transformer models
+models/
+
+# Python cache
+__pycache__/
+*.pyc
