@@ -1,0 +1,26 @@
+{
+    "cpu_info": {
+        "architecture": "x86_64",
+        "cpu_cores": "16",
+        "vendor_id": "AuthenticAMD",
+        "model_name": "AMD Ryzen 7 5800H with Radeon Graphics",
+        "mhz": null,
+        "l1d_cache": "256 KiB (8 instances)",
+        "l1i_cache": "256 KiB (8 instances)",
+        "l2_cache": "4 MiB (8 instances)",
+        "l3_cache": "16 MiB (1 instance)"
+    },
+    "memory_info": {
+        "total_memory": "Mem:",
+        "used_memory": "14Gi",
+        "free_memory": "6.9Gi"
+    },
+    "gpu_info": [
+        "0300",
+        "0300"
+    ],
+    "os_info": "PRETTY_NAME=\"Ubuntu 24.04.2 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.2 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo",
+    "kernel_info": "Linux ank-Victus-by-HP-Gaming-Laptop-15-fb0xxx 6.8.0-60-generic #63-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 15 19:04:15 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux",
+    "disk_info_df": "Filesystem      Size  Used Avail Use% Mounted on\ntmpfs           1.5G  2.5M  1.5G   1% /run\n/dev/sda2        92G   55G   33G  63% /\ntmpfs           7.5G   31M  7.5G   1% /dev/shm\ntmpfs           5.0M   20K  5.0M   1% /run/lock\nefivarfs        256K   84K  168K  34% /sys/firmware/efi/efivars\ntmpfs           7.5G     0  7.5G   0% /run/qemu\n/dev/sda4       958M  188M  705M  22% /boot\n/dev/sda6       258G   70G  175G  29% /home\n/dev/sda5        92G   11G   76G  13% /var\n/dev/nvme0n1p1  256M   93M  164M  37% /boot/efi\ntmpfs           1.5G  2.6M  1.5G   1% /run/user/1000",
+    "disk_info_lsblk": "NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS\nloop0         7:0    0 318.2M  1 loop /snap/code/195\nloop1         7:1    0  55.5M  1 loop /snap/core18/2887\nloop2         7:2    0     4K  1 loop /snap/bare/5\nloop3         7:3    0 318.2M  1 loop /snap/code/194\nloop5         7:5    0  63.8M  1 loop /snap/core20/2582\nloop6         7:6    0  73.9M  1 loop /snap/core22/1981\nloop7         7:7    0  73.9M  1 loop /snap/core22/1963\nloop8         7:8    0  66.8M  1 loop /snap/core24/988\nloop9         7:9    0 114.1M  1 loop /snap/discord/242\nloop10        7:10   0  66.8M  1 loop /snap/core24/888\nloop11        7:11   0 241.9M  1 loop /snap/firefox/6198\nloop12        7:12   0 245.5M  1 loop /snap/firefox/6316\nloop13        7:13   0  11.1M  1 loop /snap/firmware-updater/167\nloop14        7:14   0   193M  1 loop /snap/gaming-graphics-core22/184\nloop15        7:15   0 164.8M  1 loop /snap/gnome-3-28-1804/198\nloop16        7:16   0 505.1M  1 loop /snap/gnome-42-2204/176\nloop17        7:17   0  91.7M  1 loop /snap/gtk-common-themes/1535\nloop18        7:18   0   516M  1 loop /snap/gnome-42-2204/202\nloop19        7:19   0  10.1M  1 loop /snap/htop/5021\nloop20        7:20   0  10.1M  1 loop /snap/htop/4853\nloop21        7:21   0  12.2M  1 loop /snap/snap-store/1216\nloop22        7:22   0  10.8M  1 loop /snap/snap-store/1270\nloop23        7:23   0  44.4M  1 loop /snap/snapd/23771\nloop24        7:24   0  50.9M  1 loop /snap/snapd/24505\nloop25        7:25   0   500K  1 loop /snap/snapd-desktop-integration/178\nloop26        7:26   0   568K  1 loop /snap/snapd-desktop-integration/253\nloop27        7:27   0 214.9M  1 loop /snap/steam/206\nloop28        7:28   0 210.2M  1 loop /snap/thunderbird/734\nloop29        7:29   0 210.3M  1 loop /snap/thunderbird/735\nloop30        7:30   0  82.1M  1 loop /snap/whatsdesk/28\nloop31        7:31   0  63.8M  1 loop /snap/core20/2599\nsda           8:0    0 465.8G  0 disk \n\u251c\u2500sda1        8:1    0   448M  0 part \n\u251c\u2500sda2        8:2    0  93.1G  0 part /\n\u251c\u2500sda3        8:3    0  14.9G  0 part [SWAP]\n\u251c\u2500sda4        8:4    0   992M  0 part /boot\n\u251c\u2500sda5        8:5    0  93.1G  0 part /var\n\u2514\u2500sda6        8:6    0 263.2G  0 part /home\nnvme0n1     259:0    0 476.9G  0 disk \n\u251c\u2500nvme0n1p1 259:1    0   260M  0 part /boot/efi\n\u251c\u2500nvme0n1p2 259:2    0    16M  0 part \n\u251c\u2500nvme0n1p3 259:3    0 475.9G  0 part \n\u2514\u2500nvme0n1p4 259:4    0   743M  0 part"
+}
