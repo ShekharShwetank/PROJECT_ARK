@@ -7,10 +7,12 @@
 # It should be run from the ~/ARK/src/scripts directory.
 
 echo "Starting system information gathering for ARK..."
-
-# Define the output directory relative to the ARK project root.
-OUTPUT_DIR="$HOME/ARK/data/system_info"
-echo "Output will be saved to $OUTPUT_DIR"
+ 
+# Get the directory of the script itself
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+# Assume the project root is two levels up from the scripts directory
+PROJECT_ROOT=$(realpath "$SCRIPT_DIR/../..")
+OUTPUT_DIR="$PROJECT_ROOT/data/system_info"
 
 # Ensure the output directory exists
 mkdir -p "$OUTPUT_DIR"
@@ -18,6 +20,8 @@ mkdir -p "$OUTPUT_DIR"
 # --- 1. Hardware Information ---
 echo "Gathering hardware information..."
 {
+    echo "Output will be saved to $OUTPUT_DIR"
+    echo ""
     echo "=================================================="
     echo "            HARDWARE INFORMATION"
     echo "=================================================="
@@ -81,6 +85,21 @@ echo "Gathering software and network information..."
     ss -tuln
     echo ""
 } > "$OUTPUT_DIR/03-software_network_info.txt"
+
+# --- 4. Filesystem Structure ---
+echo "Gathering filesystem structure (tree)..."
+{
+    echo "=================================================="
+    echo "            FILESYSTEM STRUCTURE"
+    echo "=================================================="
+    echo ""
+    echo "--- Home Directory Tree (depth 3) ---"
+    # Use -L 3 to limit depth and prevent excessively large files.
+    # Use -a to show hidden files, as they can be important.
+    # Use -C to add color codes, which can be useful context.
+    tree -a -C -L 3 "$HOME"
+    echo ""
+} > "$OUTPUT_DIR/04-filesystem_structure.txt"
 
 echo "---------------------------------------------------"
 echo "System information gathering complete."

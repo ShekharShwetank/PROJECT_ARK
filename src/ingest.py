@@ -2,7 +2,7 @@ import os
 import time
 import argparse
 from langchain_community.document_loaders import DirectoryLoader, UnstructuredFileLoader
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from sentence_transformers import SentenceTransformer
 import chromadb
 

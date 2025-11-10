@@ -4,38 +4,46 @@
 
 --- Block Devices (lsblk) ---
 NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
-loop0         7:0    0 318.2M  1 loop /snap/code/195
-loop1         7:1    0  55.5M  1 loop /snap/core18/2887
-loop2         7:2    0     4K  1 loop /snap/bare/5
-loop3         7:3    0 318.2M  1 loop /snap/code/194
-loop4         7:4    0  63.8M  1 loop /snap/core20/2571
-loop5         7:5    0  63.8M  1 loop /snap/core20/2582
-loop6         7:6    0  73.9M  1 loop /snap/core22/1981
-loop7         7:7    0  73.9M  1 loop /snap/core22/1963
-loop8         7:8    0  66.8M  1 loop /snap/core24/988
-loop9         7:9    0 114.1M  1 loop /snap/discord/242
-loop10        7:10   0  66.8M  1 loop /snap/core24/888
-loop11        7:11   0 241.9M  1 loop /snap/firefox/6198
-loop12        7:12   0 245.5M  1 loop /snap/firefox/6316
-loop13        7:13   0  11.1M  1 loop /snap/firmware-updater/167
-loop14        7:14   0   193M  1 loop /snap/gaming-graphics-core22/184
-loop15        7:15   0 164.8M  1 loop /snap/gnome-3-28-1804/198
-loop16        7:16   0 505.1M  1 loop /snap/gnome-42-2204/176
-loop17        7:17   0  91.7M  1 loop /snap/gtk-common-themes/1535
-loop18        7:18   0   516M  1 loop /snap/gnome-42-2204/202
-loop19        7:19   0  10.1M  1 loop /snap/htop/5021
-loop20        7:20   0  10.1M  1 loop /snap/htop/4853
-loop21        7:21   0  12.2M  1 loop /snap/snap-store/1216
-loop22        7:22   0  10.8M  1 loop /snap/snap-store/1270
-loop23        7:23   0  44.4M  1 loop /snap/snapd/23771
-loop24        7:24   0  50.9M  1 loop /snap/snapd/24505
-loop25        7:25   0   500K  1 loop /snap/snapd-desktop-integration/178
-loop26        7:26   0   568K  1 loop /snap/snapd-desktop-integration/253
-loop27        7:27   0 214.9M  1 loop /snap/steam/206
-loop28        7:28   0 210.2M  1 loop /snap/thunderbird/734
-loop29        7:29   0 210.3M  1 loop /snap/thunderbird/735
-loop30        7:30   0  82.1M  1 loop /snap/whatsdesk/28
-loop31        7:31   0     0B  0 loop 
+loop0         7:0    0     4K  1 loop /snap/bare/5
+loop1         7:1    0 185.3M  1 loop /snap/brave/567
+loop2         7:2    0  55.5M  1 loop /snap/core18/2952
+loop3         7:3    0  55.5M  1 loop /snap/core18/2959
+loop4         7:4    0  63.8M  1 loop /snap/core20/2669
+loop5         7:5    0  63.8M  1 loop /snap/core20/2682
+loop6         7:6    0  73.9M  1 loop /snap/core22/2133
+loop7         7:7    0  73.9M  1 loop /snap/core22/2139
+loop8         7:8    0  66.8M  1 loop /snap/core24/1196
+loop9         7:9    0  66.8M  1 loop /snap/core24/1225
+loop10        7:10   0 114.1M  1 loop /snap/discord/257
+loop11        7:11   0 114.1M  1 loop /snap/discord/258
+loop12        7:12   0   2.1M  1 loop /snap/fetch/5
+loop13        7:13   0 249.2M  1 loop /snap/firefox/7084
+loop14        7:14   0 249.1M  1 loop /snap/firefox/7177
+loop15        7:15   0  11.1M  1 loop /snap/firmware-updater/167
+loop16        7:16   0  18.5M  1 loop /snap/firmware-updater/210
+loop17        7:17   0   193M  1 loop /snap/gaming-graphics-core22/184
+loop18        7:18   0     6M  1 loop /snap/gedit/697
+loop19        7:19   0 164.8M  1 loop /snap/gnome-3-28-1804/198
+loop20        7:20   0   516M  1 loop /snap/gnome-42-2204/202
+loop21        7:21   0 516.2M  1 loop /snap/gnome-42-2204/226
+loop22        7:22   0 589.6M  1 loop /snap/gnome-46-2404/117
+loop23        7:23   0 618.3M  1 loop /snap/gnome-46-2404/125
+loop24        7:24   0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop25        7:25   0  10.1M  1 loop /snap/htop/5151
+loop26        7:26   0  10.1M  1 loop /snap/htop/5181
+loop27        7:27   0 302.8M  1 loop /snap/mesa-2404/1110
+loop28        7:28   0   395M  1 loop /snap/mesa-2404/1165
+loop29        7:29   0  10.8M  1 loop /snap/snap-store/1270
+loop30        7:30   0  17.5M  1 loop /snap/snap-store/1300
+loop31        7:31   0  50.8M  1 loop /snap/snapd/25202
+loop32        7:32   0  50.9M  1 loop /snap/snapd/25577
+loop33        7:33   0   568K  1 loop /snap/snapd-desktop-integration/253
+loop34        7:34   0   576K  1 loop /snap/snapd-desktop-integration/315
+loop35        7:35   0 210.4M  1 loop /snap/thunderbird/751
+loop36        7:36   0 226.2M  1 loop /snap/thunderbird/825
+loop37        7:37   0 101.8M  1 loop /snap/tradingview/67
+loop38        7:38   0 110.1M  1 loop /snap/tradingview/68
+loop39        7:39   0     0B  0 loop 
 sda           8:0    0 465.8G  0 disk 
 ├─sda1        8:1    0   448M  0 part 
 ├─sda2        8:2    0  93.1G  0 part /
@@ -47,21 +55,21 @@ nvme0n1     259:0    0 476.9G  0 disk
 ├─nvme0n1p1 259:1    0   260M  0 part /boot/efi
 ├─nvme0n1p2 259:2    0    16M  0 part 
 ├─nvme0n1p3 259:3    0 475.9G  0 part 
-└─nvme0n1p4 259:4    0   743M  0 part 
+└─nvme0n1p4 259:4    0   814M  0 part 
 
 --- Filesystem Disk Space Usage (df -h) ---
 Filesystem      Size  Used Avail Use% Mounted on
-tmpfs           1.5G  2.4M  1.5G   1% /run
-/dev/sda2        92G   40G   48G  46% /
-tmpfs           7.5G     0  7.5G   0% /dev/shm
+tmpfs           1.5G  2.7M  1.5G   1% /run
+/dev/sda2        92G   46G   42G  53% /
+tmpfs           7.5G   68M  7.5G   1% /dev/shm
 tmpfs           5.0M   20K  5.0M   1% /run/lock
-efivarfs        256K   84K  168K  34% /sys/firmware/efi/efivars
+efivarfs        256K   88K  164K  35% /sys/firmware/efi/efivars
 tmpfs           7.5G     0  7.5G   0% /run/qemu
-/dev/sda4       958M  188M  705M  22% /boot
-/dev/sda6       258G   69G  177G  29% /home
-/dev/sda5        92G   11G   76G  13% /var
-/dev/nvme0n1p1  256M   93M  164M  37% /boot/efi
-tmpfs           1.5G  152K  1.5G   1% /run/user/1000
+/dev/sda5        92G   39G   48G  46% /var
+/dev/sda4       958M  196M  698M  22% /boot
+/dev/sda6       258G  195G   51G  80% /home
+/dev/nvme0n1p1  256M   94M  163M  37% /boot/efi
+tmpfs           1.5G  2.6M  1.5G   1% /run/user/1000
 
 --- Partition Information (parted -l) ---
 Model: AMicro AM8180 NVME (scsi)
@@ -89,7 +97,7 @@ Number  Start   End    Size    File system  Name                          Flags
  1      1049kB  274MB  273MB   fat32        EFI system partition          boot, esp
  2      274MB   290MB  16.8MB               Microsoft reserved partition  msftres
  3      290MB   511GB  511GB                Basic data partition          msftdata
- 4      511GB   512GB  779MB   ntfs                                       hidden, diag, no_automount
+ 4      511GB   512GB  854MB   ntfs                                       hidden, diag, no_automount
 
 
 
